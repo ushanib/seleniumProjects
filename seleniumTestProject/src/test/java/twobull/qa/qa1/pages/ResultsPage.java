@@ -12,7 +12,6 @@ public class ResultsPage {
 
         WebDriver driver;
 
-       // By secondResult = By.xpath("/html/body/div[6]/div[3]/div[10]/div[1]/div[2]/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div/h3/a");
         By secondResult = By.xpath("//*[@id='rso']/div[3]/div/div[1]/div/div/h3/a");
         By clickWikiLink = By.linkText("Quality assurance - Wikipedia");
 
