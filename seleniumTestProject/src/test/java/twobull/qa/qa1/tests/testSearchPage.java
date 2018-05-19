@@ -6,7 +6,7 @@ package twobull.qa.qa1.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -33,11 +33,11 @@ public class testSearchPage {
       //  System.setProperty("webdriver.gecko.driver", "/home/ushani/Selenium_ProjectWS/TwoBulls/seleniumTestProject/src/test/resources/geckodriver");
       //  driver = new FirefoxDriver();
 
-/*   	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo 1\\eclipse-workspace\\firstTestProject\\src\\test\\resources\\chromedriver.exe");
-     driver = new ChromeDriver();*/
+   	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo 1\\eclipse-workspace\\firstTestProject\\src\\test\\resources\\chromedriver.exe");
+     driver = new ChromeDriver();
 
-     System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lenovo 1\\eclipseprojects\\seleniumTestProject\\src\\test\\resources\\geckodriver.exe");
-     driver = new FirefoxDriver();
+    /* System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lenovo 1\\eclipseprojects\\seleniumTestProject\\src\\test\\resources\\geckodriver.exe");
+     driver = new FirefoxDriver();*/
 
 
 //        System.setProperty("webdriver.chrome.driver", "/home/ushani/Selenium_ProjectWS/TwoBulls/seleniumTestProject/src/test/resources/chromedriver");
