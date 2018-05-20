@@ -41,7 +41,7 @@ public class testLoginPage {
 */
 
 //        System.setProperty("webdriver.chrome.driver", "/home/ushani/Selenium_ProjectWS/TwoBulls/seleniumTestProject/src/test/resources/chromedriver");
-//        WebDriver driver = new ChromeDriver();
+//         driver = new ChromeDriver();
 
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
